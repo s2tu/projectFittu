@@ -15,7 +15,7 @@ import com.project.fittu.R;
  * Created by stu1 on 3/1/2017.
  */
 
-public class CalendarActivity extends AppCompatActivity {
+public class CalendarActivity extends Activity {
 
     CalendarView calendarView;
     TextView dateDisplay;
@@ -24,6 +24,7 @@ public class CalendarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.calendar_activity);
 
         calendarView = (CalendarView) findViewById(R.id.calendarView);

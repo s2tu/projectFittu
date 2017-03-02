@@ -18,7 +18,7 @@
         <activity android:name=".activities.WorkoutsActivity"/>
         <activity android:name=".activities.MealPlanActivity"/>
         <activity android:name=".activities.CalendarActivity"/>
-
+        <activity android:name=".activities.ExerciseActivity"/>
     </application>
 
 </manifest>

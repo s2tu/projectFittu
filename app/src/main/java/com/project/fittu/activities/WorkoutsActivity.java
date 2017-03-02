@@ -2,6 +2,7 @@ package com.project.fittu.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.project.fittu.fragments.WorkoutsFragment;
 
@@ -10,7 +11,7 @@ import com.project.fittu.fragments.WorkoutsFragment;
  * Created by stu1 on 3/1/2017.
  */
 
-public class WorkoutsActivity extends Activity{
+public class WorkoutsActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
