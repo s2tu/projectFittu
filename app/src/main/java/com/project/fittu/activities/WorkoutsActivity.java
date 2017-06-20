@@ -16,6 +16,7 @@ public class WorkoutsActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //load the fragment
         //setup a floating button
         if(getFragmentManager().findFragmentById(android.R.id.content) == null){

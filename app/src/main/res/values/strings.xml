@@ -3,4 +3,8 @@
     <string name="btn_workouts">Workouts</string>
     <string name="btn_calendar">Calendar</string>
     <string name="btn_mealplan">Meal Plan</string>
+    <string name="btn_editExercise">Edit</string>
+    <string name="btn_remove_workout">Delete</string>
+    <string name="btn_remove_exercise">Delete</string>
+    <string name="add_set_btn">Add Set</string>
 </resources>
